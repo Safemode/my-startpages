@@ -20,8 +20,9 @@
 
 body{
 	color: #ccc;
-	background: url(../img/bg.jpg) no-repeat #161616 fixed;
-	background-position: right -100px bottom;
+	background: url(../img/kh3.jpg) no-repeat #161616 fixed;
+	/* background-position: right -100px bottom; */
+	background-size: 1920px 1080px;
 }
 
 #logo{
@@ -37,10 +38,15 @@ body{
 	font-family: "Beef'd", Ubuntu!important;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+				 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+	
 }
 
 #logo h1 span{
 	color:#666;
+	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+				 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
 }
 
 /* the image of the box */
